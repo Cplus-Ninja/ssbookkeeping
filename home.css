@@ -168,6 +168,7 @@ h1 span {
     
 
 }
+/*
 
 h1 span::before {
     content: "";
@@ -187,7 +188,7 @@ h1 span.stop-blinking::before {
     animation: none;
 
 
-}
+}*/
    
 
 
