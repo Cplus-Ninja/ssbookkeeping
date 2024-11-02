@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+
+    <section id="contact">
+    <div class="contact">
+
+        <!-- form thru w3forms to email action/ method --->
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+
+            <!-- top input is for access key recieved in email thats linked -->
+
+            <input type="hidden" name="access_key" value="7efe523c-605d-4ac6-a940-ccb550eda637">
+
+
+            <input type="text" name="name" placeholder="Your Name/¿Su nombre?" class="contact-inputs" reuired>
+            <input type="email" name="email" placeholder="Email/ Correo electrónico" class="contact-inputs" reuired>
+            <input type="tel" name="phone" placeholder="Telephone/ Teléfono" class="contact-inputs">
+            <textarea name="message"  placeHolder="How may we help you?/ ¿Cómo podemos ayudarle?" class="contact-inputs"></textarea>
+            <button type="submit">SUBMIT<img src="arrow.png" alt="arrowicon" title="arrowicon"></button>
+
+        </form>
+
+        <div class="contact-right">
+
+            <img src="form icon.png" alt="form icon of paper">
+
+
+        </div>
+    </div>
+    </section>
+    
+</body>
+</html>
